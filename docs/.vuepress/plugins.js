@@ -365,6 +365,14 @@ const plugins = [
       "Prepare the contract artifacts and the TypeChain bindings for registry deployment.",
     tags: ["Deployment", "Tasks", "TypeChain"],
   },
+  {
+    name: "@defi-wonderland/smock",
+    author: "DeFi Wonderland and Optimism PBC",
+    authorUrl: "https://github.com/defi-wonderland",
+    url: "https://github.com/defi-wonderland/smock/tree/main",
+    description: "The Solidity mocking library",
+    tags: ["Testing", "Mocking"],
+  },
 ];
 
 module.exports = plugins.map((p) => ({
